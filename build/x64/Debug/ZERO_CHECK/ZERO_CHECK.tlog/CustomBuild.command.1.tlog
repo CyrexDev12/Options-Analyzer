@@ -1,0 +1,10 @@
+^C:\USERS\LUKE\DESKTOP\PROGRAMMING\OPTIONSANALYZER\BUILD\CMAKEFILES\4762C0EA8CB75CF01EC16C1183C0D77E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Luke/Desktop/Programming/OptionsAnalyzer -BC:/Users/Luke/Desktop/Programming/OptionsAnalyzer/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Luke/Desktop/Programming/OptionsAnalyzer/build/OptionsAlertModel.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

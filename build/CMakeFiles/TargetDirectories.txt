@@ -1,0 +1,3 @@
+C:/Users/Luke/Desktop/Programming/OptionsAnalyzer/build/CMakeFiles/OptionsAlertModel.dir
+C:/Users/Luke/Desktop/Programming/OptionsAnalyzer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Luke/Desktop/Programming/OptionsAnalyzer/build/CMakeFiles/ZERO_CHECK.dir

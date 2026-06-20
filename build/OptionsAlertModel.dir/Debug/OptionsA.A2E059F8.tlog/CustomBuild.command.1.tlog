@@ -1,0 +1,10 @@
+^C:\USERS\LUKE\DESKTOP\PROGRAMMING\OPTIONSANALYZER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Luke/Desktop/Programming/OptionsAnalyzer -BC:/Users/Luke/Desktop/Programming/OptionsAnalyzer/build --check-stamp-file C:/Users/Luke/Desktop/Programming/OptionsAnalyzer/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
